@@ -1,3 +1,3 @@
 # #100daysofcode
-Arquitectura de computadoras
+Arquitectura de computadoras / 
 Sergio Alexander Sanchez Garcia
