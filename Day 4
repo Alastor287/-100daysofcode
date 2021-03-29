@@ -1,0 +1,14 @@
+Marzo 27 de 2021
+Día 4:
+Pense que seria mas sencillo de lo esperado, pero no fue así. No llevo muvho pregreso, , olvide comohacer  algunas cosas pero con el tiempo lo recordare.
+Practicare un poco más.
+
+Progreso:
+
+#include <stdio.h>
+#include <conio.h>
+main()
+{
+printf("Calculadora\n");
+getch();
+}
