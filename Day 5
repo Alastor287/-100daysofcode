@@ -1,0 +1,24 @@
+Marzo 28 de 2021
+Día 5:
+Finalmente logre hacer las sumas de numeros, luego agregare, las restas, multiplicaciones y divisiones.
+
+Progreso:
+#include <iostream>
+#include <conio.h>
+void main()
+{
+int num,tnum,i = 0,j = 0;
+cout << "Calculadora";
+clrscr();
+cout << "Ingresar cantidad de numeros:";
+cin >> tnum;
+while(i < tnum)
+{
+cout << "Ingresar numero:";
+cin >> num;
+j = j + num;
+i = i + 1;
+}
+cout<<"La suma de los numeros es:" << j;
+getch();
+}
