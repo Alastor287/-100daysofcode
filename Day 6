@@ -1,0 +1,25 @@
+Marzo 29 de 2021
+Día 6:
+Ahora que llevo una operación, basicamente solo habría que cambiar mensajes a pantalla y procesos para realizar las restas, multiplicaciones, etc. 
+Aun estoy estudiando algo llamado Switch.
+
+Progreso:
+#include <iostream>
+#include <conio.h>
+void main()
+{
+int num,tnum,i = 0,j = 0;
+cout << "Calculadora";
+clrscr();
+cout << "Ingresar cantidad de numeros:";
+cin >> tnum;
+while(i < tnum)
+{
+cout << "Ingresar numero:";
+cin >> num;
+j = j + num;               //proceso de suma //cambiar proceso
+i = i + 1;
+}
+cout<<"La suma de los numeros es:" << j;
+getch();
+}
