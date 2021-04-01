@@ -1,0 +1,35 @@
+Marzo 31 de 2021
+Día 8:
+Finalmente comprendi el switch en el codígo y logre implementarlo, adjunto un prototipo con la operación de suma, ahora implementare mas operaciones.
+
+Progreso:
+
+#include <iostream>
+#include <conio.h>
+void main()
+{
+int opcion;
+int num,tnum,i = 0,j = 0;
+cout << "CALCULADORA\n\n";
+cout << "OPERACIONES:\n";
+cout << "1 Suma\n";
+cin >> opcion;
+clrscr();
+switch(opcion)
+{
+case 1:
+cout << "Suma\n\n";
+cout << "Ingresar cantidad de numeros:";
+cin >> tnum;
+while(i < tnum)
+{
+cout << "Ingresar numero:";
+cin >> num;
+j = j + num;
+i = i + 1;
+}
+cout<<"La suma de los numeros es:" << j;
+break;
+}
+getch();
+}
