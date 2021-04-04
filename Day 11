@@ -1,0 +1,34 @@
+Abril 02 de 2021
+Día 11:
+
+Ya estan agregada la operacion de raíz cuadrada porque use una función de la biblioteca #include <math.h> llamada sqrt. De paso ahora los numeros pueden ser reales.
+
+Progreso:
+#include <iostream>
+#include <conio.h>
+#include <math.h>
+void main()
+{
+int opcion;
+float num,tnum,i = 0,j = 0,dividendo, divisor, cociente, raiz;
+cout << "CALCULADORA\n\n";
+cout << "OPERACIONES:\n";
+cout << "1 Suma\n";
+cout << "2 Resta\n";
+cout << "3 Multiplicacion\n";
+cout << "4 Division\n";
+cout << "5 Raiz cuadrada\n";
+cin >> opcion;
+clrscr();
+switch(opcion)
+{
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+case 5:
+cout << "Raiz cuadrada\n\n";
+cout << "Ingresar numero:";
+cin >> num;
+raiz = sqrt(num);
+cout << "La raiz cuadrada de " << num << " es:" << raiz;
+break;
