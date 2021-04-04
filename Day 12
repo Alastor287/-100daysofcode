@@ -1,0 +1,18 @@
+Abril 03 de 2021
+Día 12:
+
+Para hacer la exponente use la función pow que solo necesita la base y el exponente.
+
+Progreso:
+case 6:
+cout << "Exponentes\n\n";
+cout << "Ingresar base:";
+cin >> num;
+cout << "Ingresar exponente:";
+cin >> exp;
+tnum = pow(num,exp);
+cout << "" << num << " a la " << exp << " es: " << tnum;
+break;
+
+Referencias:
+https://unestudiantedeinformatica.blogspot.com/2014/08/elevar-un-numero-una-potencia-en-c.html#:~:text=Elevar%20un%20n%C3%BAmero%20a%20una%20potencia%20en%20C%2B%2B&text=pow(a%2C%20b)%20donde,mismo%202*2*2.
