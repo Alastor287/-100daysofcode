@@ -1,4 +1,4 @@
-Abril 02 de 2021
+Abril 03 de 2021
 Día 11:
 
 Ya estan agregada la operacion de raíz cuadrada porque use una función de la biblioteca #include <math.h> llamada sqrt. De paso ahora los numeros pueden ser reales.
