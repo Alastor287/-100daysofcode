@@ -1,0 +1,18 @@
+Abril 18 de 2021
+Día 18:
+
+Finalmente tengo el de logaritmo.
+
+case 7:
+cout << "Logaritmos\n\n";
+cout << "Ingresar argumento:";
+cin >> arg;
+while(arg>2)
+{
+  arg = arg/2;
+  exp++;
+}
+cout << "El exponente es:"<< exp;
+
+break;
+}
